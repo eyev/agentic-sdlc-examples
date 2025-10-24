@@ -32,10 +32,6 @@ cp .env.sample .env
 
 ### 3. Run the Agents
 
-```bash
-cd examples
-```
-
 #### Complete Workflow (Recommended)
 
 Generate user stories AND acceptance criteria in one command:
@@ -64,7 +60,7 @@ python -m ac_writer 01 --idea
 ## Project Structure
 
 ```
-examples/
+agentic-sdlc/
 ├── data/
 │   ├── ideas/          # Input: Feature idea files
 │   ├── stories/        # Output: Generated user stories
